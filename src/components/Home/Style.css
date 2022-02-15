@@ -1,0 +1,106 @@
+.top {
+    background-color: #000080;
+    display: flex;
+    height: 500px;
+    padding-top: 50px;
+
+}
+#statement{
+    padding-top: 40px;
+}
+
+.texts {
+    width: 50%;
+    font-size: 15px;
+    color: #000000;
+    background-color: #F0FFFF;
+    height: 90%;
+    padding: 10px;
+    padding-top: 70px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+#skills {
+    display: flex;
+    gap: 20px;
+    padding-left: 20px;
+}
+
+#Hobbies {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    padding-left: 20px;
+}
+
+#para {
+    color: #111;
+}
+
+.ai {
+    width: 200px;
+    padding: 10px;
+    column-gap: 10px;
+    transition: transform 450ms;
+    height: 400px;
+    background-color: black;
+    color: white;
+    border-radius: 12px;
+}
+
+.ai:hover {
+    transform: scale(1.08);
+}
+
+h2 {
+    border-bottom: black dotted 2px;
+
+}
+
+p2 {
+    color: black;
+}
+
+#port {
+    color: #800080;
+    font-weight: bold;
+    background-color: #1B1212;
+    font-size: 40px;
+    border-top-left-radius: 12px;
+    border-bottom-left-radius: 12px;
+    border-top-right-radius: 10px;
+}
+
+#folio {
+    color: #F0FFFF;
+    background-color: #808080;
+    height: 50px;
+    border-top-right-radius: 12px;
+    border-bottom-right-radius: 12px;
+}
+
+/*.Mustang {
+    background-image: url(./mustang.png);
+}*/
+.image {
+    border-top-right-radius: 12px;
+    transition: transform 450ms;
+    padding: 20px;
+
+    background-size: 'cover';
+    background-position: "center center";
+}
+
+
+
+
+.image:hover {
+    transform: scale(1.09);
+}
+
+.theImage {
+    border-radius: 12px;
+    width: 200px;
+}

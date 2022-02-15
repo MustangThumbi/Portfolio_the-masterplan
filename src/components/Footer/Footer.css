@@ -1,0 +1,24 @@
+.Contacts {
+    height: 200px;
+    width: 100%;
+    display: flex;
+    background-color: #111;
+    color: white;
+    gap: 40px;
+
+}
+
+p {
+    color: white;
+}
+
+.socials {
+    color: white;
+    display: flex;
+    flex-direction: column;
+}
+h{
+    font-size: 20px;
+    font-family: sans-serif;
+    font-weight: bold;
+}
